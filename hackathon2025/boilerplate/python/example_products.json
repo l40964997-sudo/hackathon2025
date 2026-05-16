@@ -1,0 +1,731 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S24 128GB",
+    "description": "Flagship 5G smartphone with Dynamic AMOLED display.",
+    "price": 899.00,
+    "currency": "EUR",
+    "stock": 30,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Samsung",
+      "storage_gb": 128,
+      "color": "Black",
+      "network": "5G",
+      "sim_type": "Dual SIM"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 256GB",
+    "description": "Flagship 5G smartphone with increased storage.",
+    "price": 999.00,
+    "currency": "EUR",
+    "stock": 20,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Samsung",
+      "storage_gb": 256,
+      "color": "Silver",
+      "network": "5G",
+      "sim_type": "Dual SIM"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 15 128GB",
+    "description": "5G smartphone with advanced camera system.",
+    "price": 949.00,
+    "currency": "EUR",
+    "stock": 15,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Apple",
+      "storage_gb": 128,
+      "color": "Blue",
+      "network": "5G",
+      "sim_type": "eSIM"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Apple iPhone 15 256GB",
+    "description": "Premium 5G smartphone for performance users.",
+    "price": 1099.00,
+    "currency": "EUR",
+    "stock": 10,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Apple",
+      "storage_gb": 256,
+      "color": "Black",
+      "network": "5G",
+      "sim_type": "eSIM"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Google Pixel 8 128GB",
+    "description": "AI-powered 5G smartphone with high-end camera.",
+    "price": 799.00,
+    "currency": "EUR",
+    "stock": 18,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Google",
+      "storage_gb": 128,
+      "color": "Charcoal",
+      "network": "5G"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 8 Pro 256GB",
+    "description": "Premium 5G smartphone with top-tier photography.",
+    "price": 1099.00,
+    "currency": "EUR",
+    "stock": 12,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Google",
+      "storage_gb": 256,
+      "color": "Bay",
+      "network": "5G"
+    }
+  },
+  {
+    "id": 7,
+    "name": "OnePlus 12 256GB",
+    "description": "High-performance 5G smartphone with fast charging.",
+    "price": 899.00,
+    "currency": "EUR",
+    "stock": 25,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "OnePlus",
+      "storage_gb": 256,
+      "color": "Green",
+      "network": "5G"
+    }
+  },
+  {
+    "id": 8,
+    "name": "OnePlus 12 512GB",
+    "description": "Maximum storage edition of the flagship device.",
+    "price": 999.00,
+    "currency": "EUR",
+    "stock": 15,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "OnePlus",
+      "storage_gb": 512,
+      "color": "Black",
+      "network": "5G"
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "SIM-Only Unlimited Plan",
+    "description": "Unlimited data, calls, and SMS with monthly flexibility.",
+    "price": 29.00,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "Vodafone",
+      "data_gb": "unlimited",
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+  {
+    "id": 10,
+    "name": "SIM-Only 10GB Plan",
+    "description": "Affordable monthly plan with 10GB data.",
+    "price": 12.50,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "KPN",
+      "data_gb": 10,
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+  {
+    "id": 11,
+    "name": "SIM-Only 20GB Plan",
+    "description": "Balanced plan with 20GB data.",
+    "price": 17.00,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "T-Mobile",
+      "data_gb": 20,
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "SIM-Only 5GB Budget Plan",
+    "description": "Entry-level plan with basic data needs.",
+    "price": 8.00,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "Lebara",
+      "data_gb": 5,
+      "minutes": 200,
+      "sms": 200,
+      "contract_length_months": 1
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Prepaid SIM Starter Pack",
+    "description": "Triple SIM with €10 credit included.",
+    "price": 10.00,
+    "currency": "EUR",
+    "stock": 300,
+    "category": "prepaid",
+    "attributes": {
+      "credit_value": 10,
+      "sim_type": "Triple SIM",
+      "network": "4G/5G"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Prepaid Data Pack 5GB",
+    "description": "5GB prepaid top-up package.",
+    "price": 12.00,
+    "currency": "EUR",
+    "stock": 200,
+    "category": "prepaid",
+    "attributes": {
+      "data_gb": 5
+    }
+  },
+  {
+    "id": 15,
+    "name": "Prepaid Data Pack 20GB",
+    "description": "20GB prepaid package for heavy users.",
+    "price": 25.00,
+    "currency": "EUR",
+    "stock": 180,
+    "category": "prepaid",
+    "attributes": {
+      "data_gb": 20
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "Samsung Galaxy Buds 3",
+    "description": "Wireless earbuds with noise cancellation.",
+    "price": 149.00,
+    "currency": "EUR",
+    "stock": 50,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Samsung",
+      "type": "earbuds",
+      "wireless": true
+    }
+  },
+  {
+    "id": 17,
+    "name": "Apple AirPods 3",
+    "description": "Premium wireless earbuds with spatial audio.",
+    "price": 179.00,
+    "currency": "EUR",
+    "stock": 40,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Apple",
+      "type": "earpods",
+      "wireless": true
+    }
+  },
+  {
+    "id": 18,
+    "name": "Sony WH-1000XM5",
+    "description": "Top-tier noise-cancelling wireless headphones.",
+    "price": 329.00,
+    "currency": "EUR",
+    "stock": 25,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Sony",
+      "type": "headphones",
+      "wireless": true
+    }
+  },
+  {
+    "id": 19,
+    "name": "USB-C 30W Fast Charger",
+    "description": "Universal fast charger compatible with major smartphones.",
+    "price": 24.90,
+    "currency": "EUR",
+    "stock": 180,
+    "category": "accessory",
+    "attributes": {
+      "brand": "ChargeMax",
+      "wattage": 30
+    }
+  },
+  {
+    "id": 20,
+    "name": "USB-C to USB-C Cable (1m)",
+    "description": "Durable charging cable for modern Android phones.",
+    "price": 9.99,
+    "currency": "EUR",
+    "stock": 300,
+    "category": "accessory",
+    "attributes": {
+      "brand": "PowerLine",
+      "length_m": 1
+    }
+  },
+  {
+    "id": 21,
+    "name": "iPhone 15 Silicone Case - Black",
+    "description": "Protective silicone case for iPhone 15.",
+    "price": 39.00,
+    "currency": "EUR",
+    "stock": 150,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Apple",
+      "compatible_with": "iPhone 15",
+      "type": "case"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Samsung S24 Protective Case",
+    "description": "Shock-absorbing protective case.",
+    "price": 29.00,
+    "currency": "EUR",
+    "stock": 120,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Samsung",
+      "compatible_with": "Galaxy S24",
+      "type": "case"
+    }
+  },
+  {
+    "id": 23,
+    "name": "OnePlus 12 Protective Case",
+    "description": "Durable case for OnePlus 12.",
+    "price": 25.00,
+    "currency": "EUR",
+    "stock": 100,
+    "category": "accessory",
+    "attributes": {
+      "brand": "OnePlus",
+      "compatible_with": "OnePlus 12",
+      "type": "case"
+    }
+  },
+
+  {
+    "id": 24,
+    "name": "Samsung Galaxy Tab S9 128GB",
+    "description": "High-end 5G tablet for productivity and entertainment.",
+    "price": 799.00,
+    "currency": "EUR",
+    "stock": 18,
+    "category": "tablet",
+    "attributes": {
+      "brand": "Samsung",
+      "storage_gb": 128,
+      "network": "5G"
+    }
+  },
+  {
+    "id": 25,
+    "name": "iPad Air 11\" 64GB (2024)",
+    "description": "Lightweight 5G-capable tablet.",
+    "price": 749.00,
+    "currency": "EUR",
+    "stock": 20,
+    "category": "tablet",
+    "attributes": {
+      "brand": "Apple",
+      "storage_gb": 64,
+      "network": "5G"
+    }
+  },
+
+  {
+    "id": 26,
+    "name": "Samsung Galaxy Watch 6",
+    "description": "Smartwatch with LTE connectivity.",
+    "price": 299.00,
+    "currency": "EUR",
+    "stock": 40,
+    "category": "wearable",
+    "attributes": {
+      "brand": "Samsung",
+      "network": "LTE"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Apple Watch Series 9 GPS + Cellular",
+    "description": "Premium cellular-connected smartwatch.",
+    "price": 499.00,
+    "currency": "EUR",
+    "stock": 25,
+    "category": "wearable",
+    "attributes": {
+      "brand": "Apple",
+      "network": "Cellular"
+    }
+  },
+
+  {
+    "id": 28,
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "description": "Midrange 5G smartphone with strong battery life.",
+    "price": 349.00,
+    "currency": "EUR",
+    "stock": 60,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Xiaomi",
+      "storage_gb": 128,
+      "network": "5G"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Motorola Edge 50",
+    "description": "Stylish 5G smartphone with OLED screen.",
+    "price": 499.00,
+    "currency": "EUR",
+    "stock": 35,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Motorola",
+      "network": "5G"
+    }
+  },
+
+  {
+    "id": 30,
+    "name": "SIM-Only Unlimited EU Plan",
+    "description": "Unlimited EU data roaming included.",
+    "price": 39.00,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "Vodafone",
+      "data_gb": "unlimited",
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+
+  {
+    "id": 31,
+    "name": "MagSafe Charger",
+    "description": "Magnetic wireless charger for iPhone.",
+    "price": 49.00,
+    "currency": "EUR",
+    "stock": 120,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Apple",
+      "wireless": true
+    }
+  },
+  {
+    "id": 32,
+    "name": "Galaxy S24 Screen Protector",
+    "description": "High-durability tempered glass.",
+    "price": 14.99,
+    "currency": "EUR",
+    "stock": 200,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Samsung",
+      "compatible_with": "Galaxy S24"
+    }
+  },
+
+  {
+    "id": 33,
+    "name": "OnePlus Buds Pro 2",
+    "description": "Premium ANC earbuds.",
+    "price": 149.00,
+    "currency": "EUR",
+    "stock": 50,
+    "category": "accessory",
+    "attributes": {
+      "brand": "OnePlus",
+      "type": "earbuds",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 34,
+    "name": "Google Pixel Buds Pro",
+    "description": "Noise-cancelling wireless earbuds.",
+    "price": 199.00,
+    "currency": "EUR",
+    "stock": 40,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Google",
+      "type": "earbuds",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 35,
+    "name": "Samsung Galaxy A35 128GB",
+    "description": "Affordable 5G smartphone.",
+    "price": 299.00,
+    "currency": "EUR",
+    "stock": 70,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Samsung",
+      "storage_gb": 128,
+      "network": "5G"
+    }
+  },
+  {
+    "id": 36,
+    "name": "iPhone SE (2024)",
+    "description": "Compact iPhone with 5G support.",
+    "price": 529.00,
+    "currency": "EUR",
+    "stock": 30,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Apple",
+      "network": "5G"
+    }
+  },
+
+  {
+    "id": 37,
+    "name": "SIM-Only Student 15GB Plan",
+    "description": "Discounted subscription for students.",
+    "price": 9.99,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "Ben",
+      "data_gb": 15,
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+
+  {
+    "id": 38,
+    "name": "Huawei FreeBuds 6i",
+    "description": "Wireless earbuds with ANC.",
+    "price": 99.00,
+    "currency": "EUR",
+    "stock": 80,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Huawei",
+      "type": "earbuds",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 39,
+    "name": "Xiaomi Mi In-Ear Wired Earphones",
+    "description": "Affordable wired earphones with mic.",
+    "price": 14.99,
+    "currency": "EUR",
+    "stock": 300,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Xiaomi",
+      "type": "wired_earphones"
+    }
+  },
+
+  {
+    "id": 40,
+    "name": "Belkin 3-in-1 Charging Dock",
+    "description": "Charge phone, watch, and earbuds simultaneously.",
+    "price": 129.00,
+    "currency": "EUR",
+    "stock": 35,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Belkin",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 41,
+    "name": "Motorola Moto G24",
+    "description": "Budget smartphone with large battery.",
+    "price": 179.00,
+    "currency": "EUR",
+    "stock": 90,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Motorola",
+      "network": "4G"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Nokia G42 5G",
+    "description": "Affordable 5G smartphone.",
+    "price": 249.00,
+    "currency": "EUR",
+    "stock": 65,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Nokia",
+      "network": "5G"
+    }
+  },
+
+  {
+    "id": 43,
+    "name": "iPhone 15 Clear Case",
+    "description": "Transparent protective case.",
+    "price": 45.00,
+    "currency": "EUR",
+    "stock": 140,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Apple",
+      "type": "case",
+      "compatible_with": "iPhone 15"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Samsung Galaxy A35 Silicone Case",
+    "description": "Soft-touch protective case.",
+    "price": 19.99,
+    "currency": "EUR",
+    "stock": 130,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Samsung",
+      "type": "case",
+      "compatible_with": "Galaxy A35"
+    }
+  },
+
+  {
+    "id": 45,
+    "name": "USB-C Car Charger 45W",
+    "description": "Fast charging for smartphones while driving.",
+    "price": 29.99,
+    "currency": "EUR",
+    "stock": 100,
+    "category": "accessory",
+    "attributes": {
+      "brand": "ChargeMax",
+      "wattage": 45
+    }
+  },
+
+  {
+    "id": 46,
+    "name": "Xiaomi Redmi Buds 5",
+    "description": "Affordable wireless earbuds.",
+    "price": 49.99,
+    "currency": "EUR",
+    "stock": 90,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Xiaomi",
+      "type": "earbuds",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 47,
+    "name": "SIM-Only Unlimited Calling Plan",
+    "description": "Unlimited calls + 5GB data.",
+    "price": 14.99,
+    "currency": "EUR",
+    "stock": null,
+    "category": "subscription",
+    "attributes": {
+      "provider": "Tele2",
+      "data_gb": 5,
+      "minutes": "unlimited",
+      "sms": "unlimited",
+      "contract_length_months": 1
+    }
+  },
+
+  {
+    "id": 48,
+    "name": "Apple AirPods Pro 2",
+    "description": "Premium ANC earbuds with transparency mode.",
+    "price": 279.00,
+    "currency": "EUR",
+    "stock": 30,
+    "category": "accessory",
+    "attributes": {
+      "brand": "Apple",
+      "type": "earpods",
+      "wireless": true
+    }
+  },
+
+  {
+    "id": 49,
+    "name": "Samsung Galaxy Fit 3",
+    "description": "Fitness tracker with AMOLED display.",
+    "price": 79.00,
+    "currency": "EUR",
+    "stock": 100,
+    "category": "wearable",
+    "attributes": {
+      "brand": "Samsung"
+    }
+  },
+
+  {
+    "id": 50,
+    "name": "Motorola Moto E14",
+    "description": "Entry-level smartphone with solid performance.",
+    "price": 129.00,
+    "currency": "EUR",
+    "stock": 80,
+    "category": "smartphone",
+    "attributes": {
+      "brand": "Motorola",
+      "network": "4G"
+    }
+  }
+]

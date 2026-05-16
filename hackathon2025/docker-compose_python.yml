@@ -1,0 +1,58 @@
+version: "3.9"
+
+services:
+  python-backend:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ./boilerplate/python:/app
+    ports:
+      - "8001:8000"
+    command: >
+      sh -c "
+        pip install --no-cache-dir -r requirements.txt &&
+        uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+      "
+    environment:
+      DB_HOST: db
+      DB_USER: hackathon
+      DB_PASSWORD: hackathon
+      DB_NAME: hackathon
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./boilerplate/frontend/react
+      dockerfile: Dockerfile
+    volumes:
+      - ./boilerplate/frontend/react:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_TARGET: http://python-backend:8000
+    depends_on:
+      - python-backend
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: hackathon
+      MYSQL_USER: hackathon
+      MYSQL_PASSWORD: hackathon
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "hackathon", "-phackathon"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  db_data:
